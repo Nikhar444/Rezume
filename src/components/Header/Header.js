@@ -12,6 +12,7 @@ const Header = ({ ChangePage, CurrentPage, Resume }) => {
             Active={CurrentPage === NavItem}
             onClick={() => ChangePage(NavItem)}
             key={NavItem}
+            redirect={'/'}
           />
         ))}
       </ul>
